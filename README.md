@@ -247,12 +247,6 @@ googleapis.com
 python link_extractor.py -d mysite.com --ignore-domains domainstoignore.txt
 ```
 
-**Result:**
-- ✅ `https://mysite.com/about` → **Will be visited and processed**
-- ✅ `https://mysite.com/contact` → **Will be visited and processed**
-- 📊 `https://facebook.com/mysite-page` → **Collected but NOT crawled**
-- 📊 `https://twitter.com/mysite-account` → **Collected but NOT crawled**
-
 ## 🌐 Proxy System Details
 
 ### 🛡️ **Resilient Proxy Features**
